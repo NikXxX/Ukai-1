@@ -539,9 +539,10 @@ return  member.send(embed)
        let helpembed = new Discord.RichEmbed()
        .addField('<a:blobDance:586207936788037673>__**MENU AIDE**__<a:blobDance:586207936788037673>', 'Mon préfix est ``u.``')
        .setColor('#00fff2')
-       .addField(':tools: **Utilitaire **:', '``u.avatar [user]`` , ``i.ping`` , ``u.bvn [user]`` ,  ``u.bot-info`` , ``u.serveur-info`` , ``y.rôle-info [rôle]`` , ``y.google [recherche]`` , ``y.youtube [recherche]`` , ``y.user-info [user]`` , ``y.invite`` , ``y.meteo [ville]`` , ``y.calcul [calcul]``')
-       .addField(':tada:  **FUN** :', '``u.8ball [questions]`` , ``u.pf [pile ou face]`` , ``y.reverse [mot]`` , ``y.meme``')
-       .addField(':rotating_light: **Modérations** :', '``y.ban [user] [raison]`` , ``y.kick [user] [raison]`` , ``y.warn [user] [raison]`` , ``y.mute [user] [raison]`` , ``y.purge [2-100]`` , ``y.unmute [user]`` , ``y.addrole [user] [role]`` , ``y.removerole [user] [role]``')
+       .addField(':tools: **Utilitaire **:', '``u.avatar [user]`` , ``i.ping`` , ``u.bvn [user]`` ,  ``u.bot-info`` , ``u.serveur-info`` , ``u.rôle-info [rôle]`` , ``u.google [recherche]`` , ``u.youtube [recherche]`` , ``y.user-info [user]`` , ``y.invite`` , ``y.meteo [ville]`` , ``y.calcul [calcul]``')
+       .addField(':tada:  **FUN** :', '``u.8ball [questions]`` , ``u.pf [pile ou face]`` , ``u.reverse [mot]`` , ``u.meme``')
+       .addField(':rotating_light: **Modérations** :', '``u.ban [user] [raison]`` , ``u.kick [user] [raison]`` , ``u.warn [user] [raison]`` , ``u.mute [user] [raison]`` , ``u.purge [2-100]`` , ``u.unmute [user]`` , ``u.addrole [user] [role]`` , ``u.removerole [user] [role]``')
+       .addField(':link:Liens' ,'[Invite moi](https://discordapp.com/api/oauth2/authorize?client_id=591486435949805568&permissions=8&scope=bot) [Serveur Support](https://discord.gg/mNhJ6Gy')
        .addField('**Autres**', '**Créé par DraLow.#9014**')
        message.channel.send(helpembed);
     } 
