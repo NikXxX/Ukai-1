@@ -537,7 +537,7 @@ return  member.send(embed)
        } 
        if (command === 'help') {
        let helpembed = new Discord.RichEmbed()
-       .addField('__**MENU AIDE**__', 'Mon préfix est ``y.``')
+       .addField('<a:blobDance:586207936788037673>__**MENU AIDE**__<a:blobDance:586207936788037673>', 'Mon préfix est ``y.``')
        .setColor('#00fff2')
        .addField(':tools: **Utilitaire **:', '``y.avatar [user]`` , ``y.ping`` , ``y.bvn [user]`` ,  ``y.bot-info`` , ``y.serveur-info`` , ``y.rôle-info [rôle]`` , ``y.google [recherche]`` , ``y.youtube [recherche]`` , ``y.user-info [user]`` , ``y.invite`` , ``y.meteo [ville]`` , ``y.calcul [calcul]``')
        .addField(':tada:  **FUN** :', '``y.8ball [questions]`` , ``y.pf [pile ou face]`` , ``y.reverse [mot]`` , ``y.meme``')
