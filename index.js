@@ -539,12 +539,12 @@ return  member.send(embed)
        } 
        if (command === 'help') {
        let helpembed = new Discord.RichEmbed()
-       .addField('<a:blobDance:586207936788037673>__**MENU AIDE**__<a:blobDance:586207936788037673>', 'Mon préfix est ``u.``')
+       .addField('__**MENU AIDE**__', 'Mon préfix est ``u.``')
        .setColor('#00fff2')
        .addField(':tools: **Utilitaire **:', '``u.avatar [user]`` , ``i.ping`` , ``u.bvn [user]`` ,  ``u.bot-info`` , ``u.serveur-info`` , ``u.rôle-info [rôle]`` , ``u.google [recherche]`` , ``u.youtube [recherche]`` , ``y.user-info [user]`` , ``y.invite`` , ``y.meteo [ville]`` , ``y.calcul [calcul]``')
        .addField(':tada:  **FUN** :', '``u.8ball [questions]`` , ``u.pf [pile ou face]`` , ``u.reverse [mot]`` , ``u.meme``')
        .addField(':rotating_light: **Modérations** :', '``u.ban [user] [raison]`` , ``u.kick [user] [raison]`` , ``u.warn [user] [raison]`` , ``u.mute [user] [raison]`` , ``u.purge [2-100]`` , ``u.unmute [user]`` , ``u.addrole [user] [role]`` , ``u.removerole [user] [role]``')
-       .addField(':link:Liens' ,'[Invite moi](https://discordapp.com/api/oauth2/authorize?client_id=591486435949805568&permissions=8&scope=bot) [Serveur Support](https://discord.gg/mNhJ6Gy')
+       .addField(':link:Liens' ,'[Invite moi](https://discordapp.com/api/oauth2/authorize?client_id=591486435949805568&permissions=8&scope=bot)
        .addField('**Autres**', '**Créé par DraLow.#9014**')
        message.channel.send(helpembed);
     } 
