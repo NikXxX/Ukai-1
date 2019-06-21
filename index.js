@@ -175,6 +175,8 @@ if(command === "annonce") {
                           
     let ballembed = new Discord.RichEmbed()
     .setAuthor(message.author.username, message.author.avatarURL)
+    .setTitle(":8ball: 8ball")
+    .setThumbnail("")
     .setColor("#00fff2")
     .addField("Question", question)
     .addField("Réponse", replies[result])
