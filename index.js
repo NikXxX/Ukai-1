@@ -8,7 +8,7 @@ client.on('ready', () => {
 });
 
 const settings = {
-    prefix: 'y.',
+    prefix: 'u.',
     token: 'NTkxNDg2NDM1OTQ5ODA1NTY4.XQxgFg.5IAv0i7watpxBEDPZDqxbAnOVGU'
   }
   client.on('message', async message => {
@@ -537,10 +537,10 @@ return  member.send(embed)
        } 
        if (command === 'help') {
        let helpembed = new Discord.RichEmbed()
-       .addField('<a:blobDance:586207936788037673>__**MENU AIDE**__<a:blobDance:586207936788037673>', 'Mon préfix est ``y.``')
+       .addField('<a:blobDance:586207936788037673>__**MENU AIDE**__<a:blobDance:586207936788037673>', 'Mon préfix est ``u.``')
        .setColor('#00fff2')
-       .addField(':tools: **Utilitaire **:', '``y.avatar [user]`` , ``y.ping`` , ``y.bvn [user]`` ,  ``y.bot-info`` , ``y.serveur-info`` , ``y.rôle-info [rôle]`` , ``y.google [recherche]`` , ``y.youtube [recherche]`` , ``y.user-info [user]`` , ``y.invite`` , ``y.meteo [ville]`` , ``y.calcul [calcul]``')
-       .addField(':tada:  **FUN** :', '``y.8ball [questions]`` , ``y.pf [pile ou face]`` , ``y.reverse [mot]`` , ``y.meme``')
+       .addField(':tools: **Utilitaire **:', '``u.avatar [user]`` , ``i.ping`` , ``u.bvn [user]`` ,  ``u.bot-info`` , ``u.serveur-info`` , ``y.rôle-info [rôle]`` , ``y.google [recherche]`` , ``y.youtube [recherche]`` , ``y.user-info [user]`` , ``y.invite`` , ``y.meteo [ville]`` , ``y.calcul [calcul]``')
+       .addField(':tada:  **FUN** :', '``u.8ball [questions]`` , ``u.pf [pile ou face]`` , ``y.reverse [mot]`` , ``y.meme``')
        .addField(':rotating_light: **Modérations** :', '``y.ban [user] [raison]`` , ``y.kick [user] [raison]`` , ``y.warn [user] [raison]`` , ``y.mute [user] [raison]`` , ``y.purge [2-100]`` , ``y.unmute [user]`` , ``y.addrole [user] [role]`` , ``y.removerole [user] [role]``')
        .addField('**Autres**', '**Créé par DraLow.#9014**')
        message.channel.send(helpembed);
